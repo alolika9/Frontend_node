@@ -1,0 +1,201 @@
+[
+
+    {
+  
+      "OD": "BLNX->ATPD",
+  
+      "Origin": "BLNX",
+  
+      "Destination": "ATPD",
+  
+      "ATROPS CPT": "19:30",
+  
+      "Truck Filter": "BLNX->ATPD-PXOD",
+  
+      "Shipmethod": "ATS_LH",
+  
+      "Owner": "Scheduling team"
+  
+    },
+  
+    {
+  
+      "OD": "BLNX->GOIU",
+  
+      "Origin": "BLNX",
+  
+      "Destination": "GOIU",
+  
+      "ATROPS CPT": "17:00",
+  
+      "Truck Filter": "BLNX->GOIU",
+  
+      "Shipmethod": "ATS_LH",
+  
+      "Owner": "Scheduling team"
+  
+    },
+  
+    {
+  
+      "OD": "BLNX->IXED",
+  
+      "Origin": "BLNX",
+  
+      "Destination": "IXED",
+  
+      "ATROPS CPT": "19:30",
+  
+      "Truck Filter": "BLNX->IXED-IXEE",
+  
+      "Shipmethod": "ATS_LH_SAME",
+  
+      "Owner": "Scheduling team"
+  
+    },
+  
+    {
+  
+      "OD": "BLNX->IXEE",
+  
+      "Origin": "BLNX",
+  
+      "Destination": "IXEE",
+  
+      "ATROPS CPT": "19:30",
+  
+      "Truck Filter": "BLNX->IXED-IXEE",
+  
+      "Shipmethod": "ATS_LH_SAME",
+  
+      "Owner": "Scheduling team"
+  
+    },
+  
+    {
+  
+      "OD": "BLNX->MAND",
+  
+      "Origin": "BLNX",
+  
+      "Destination": "MAND",
+  
+      "ATROPS CPT": "01:00",
+  
+      "Truck Filter": "BLNX->MYQD-MAND",
+  
+      "Shipmethod": "ATS_LH",
+  
+      "Owner": "Scheduling team"
+  
+    },
+  
+    {
+  
+      "OD": "BLNX->MYQD",
+  
+      "Origin": "BLNX",
+  
+      "Destination": "MYQD",
+  
+      "ATROPS CPT": "01:00",
+  
+      "Truck Filter": "BLNX->MYQD-MAND",
+  
+      "Shipmethod": "ATS_LH",
+  
+      "Owner": "Scheduling team"
+  
+    },
+  
+    {
+  
+      "OD": "BLNX->PXOD",
+  
+      "Origin": "BLNX",
+  
+      "Destination": "PXOD",
+  
+      "ATROPS CPT": "19:30",
+  
+      "Truck Filter": "BLNX->ATPD-PXOD",
+  
+      "Shipmethod": "ATS_LH",
+  
+      "Owner": "Scheduling team"
+  
+    },
+  
+    {
+  
+      "OD": "GAUX->SLND",
+  
+      "Origin": "GAUX",
+  
+      "Destination": "SLND",
+  
+      "ATROPS CPT": "02:00",
+  
+      "Truck Filter": "GAUX->SLND",
+  
+      "Shipmethod": "ATS_LH_SAME",
+  
+      "Owner": "Scheduling team"
+  
+    },
+  
+    {
+  
+      "OD": "GAUX->SLNE",
+  
+      "Origin": "GAUX",
+  
+      "Destination": "SLNE",
+  
+      "ATROPS CPT": "02:00",
+  
+      "Truck Filter": "GAUX->SLNE",
+  
+      "Shipmethod": "ATS_LH",
+  
+      "Owner": "Scheduling team"
+  
+    },
+  
+    {
+  
+      "OD": "SLND->GAUX",
+  
+      "Origin": "SLND",
+  
+      "Destination": "GAUX",
+  
+      "ATROPS CPT": "07:00",
+  
+      "Truck Filter": "SLND->GAUX",
+  
+      "Shipmethod": "ATS_LH",
+  
+      "Owner": "Scheduling team"
+  
+    },
+  
+    {
+  
+      "OD": "SLNE->GAUX",
+  
+      "Origin": "SLNE",
+  
+      "Destination": "GAUX",
+  
+      "ATROPS CPT": "08:00",
+  
+      "Truck Filter": "SLNE->GAUX",
+  
+      "Shipmethod": "ATS_LH",
+  
+      "Owner": "Scheduling team"
+  
+    }
+  
+  ]

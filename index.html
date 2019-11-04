@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Dashboard
+        </title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="/test.json"></script>
+    </head>
+    <body>
+        <div>
+            <div style="background-color: rgb(107, 107, 206); height: 65px !important;padding-top: 10px;padding-bottom: 10px;" class="containers">
+                <div class="row" style="width:100%">
+                    <div class="col-md-1">
+                        <img height="45px !important" src="https://cdn.freebiesupply.com/images/large/2x/amazon-logo-transparent.png">
+                    </div>
+                    <div class="col-md-4" style="padding-left:0px;margin-left:20px;padding-top:8px;font-weight: bold;color:white;font-size: 16px;">
+                        <div class="col-md-7">
+                                Network Validations Dashboard
+                        </div>
+                        <div class="col-md-4">
+                            Last Refreshed
+                        </div>
+                    </div>
+                    <div class="col-md-6" style="padding-left:0px;padding-right:0px;padding-top:8px;font-weight: bold;font-size: 14px;">
+                        <div class="col-md-1"><a href="home.html" style="color:white">Home</a></div>
+                        <div class="col-md-2">Transit Time</div>
+                        <div class="col-md-2">Truck filter</div>
+                        <div class="col-md-3">Scheduled Speed</div>
+                        <div class="col-md-4">Facility Operating Hours</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div>
+            <div>
+                 Note: The Station Operating hours mismatches are higher than actuals as the data source is not updated.
+            </div>
+            <div>
+                Last Refreshed: 
+            </div>
+        </div>
+            <div id="test1"> 
+                    <table style="align-content:center;border:1" id="table" > 
+                    </table> 
+            </div>
+    </body>
+    <script type="text/javascript" src="/app.js"></script>
+</html>
