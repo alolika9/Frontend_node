@@ -45,30 +45,30 @@ app.get('/app.js', function(req, response) {
    })
  })
 
-// app.use(express.static(path.join(__dirname, '/public')));
+app.use(express.static(path.join(__dirname, '/public')));
 
-// app.use(express.static(__dirname + 'public'));
-// app.use(express.static('public'));
+app.use(express.static(__dirname + 'public'));
+app.use(express.static('public'));
 
-// app.use((req, res, next) => {
-//    res.statusCode=200;
+app.use((req, res, next) => {
+   res.statusCode=200;
 
-// })
-// const server = http.createServer((req, response) => {
-//     console.log(req.headers);
-//     response.statusCode = 200;
-//     response.setHeader('Content-Type','text/html');
-//     fs.readFile('./dashboard.html', null, function(error, data) {
-//         if (error) {
-//            response.writeHead(404);
-//            response.write('File not found!');
-//         } else {
-//            response.write(data);
-//         }
-//         response.end();
-//      });
-// })
+})
+const server = http.createServer((req, response) => {
+    console.log(req.headers);
+    response.statusCode = 200;
+    response.setHeader('Content-Type','text/html');
+    fs.readFile('./dashboard.html', null, function(error, data) {
+        if (error) {
+           response.writeHead(404);
+           response.write('File not found!');
+        } else {
+           response.write(data);
+        }
+        response.end();
+     });
+})
 
-// const server = http.createServer(app);
+const server = http.createServer(app);
 
 app.listen(3000);
